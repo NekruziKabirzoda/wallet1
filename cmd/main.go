@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	svc := &wallet.Servise{}
+	svc := &wallet.Service{}
 	account, err := svc.RegisterAccount("+992000000001")
 	if err != nil {
 		fmt.Println(err)
